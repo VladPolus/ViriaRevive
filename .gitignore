@@ -1,0 +1,53 @@
+# ── Credentials & Secrets ─────────────────────────────────────────────
+client_secrets.json
+tokens/
+*.pickle
+.env
+.env.*
+
+# ── Python ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+venv/
+.venv/
+env/
+
+# ── Build Artifacts ───────────────────────────────────────────────────
+dist/
+build/
+*.spec
+*.exe
+
+# ── Media & Output (user-generated, large files) ─────────────────────
+downloads/
+clips/
+subtitles/
+music/
+
+# ── ML Models ─────────────────────────────────────────────────────────
+*.pt
+*.pth
+*.onnx
+models/*.onnx
+
+# ── App State ─────────────────────────────────────────────────────────
+viria_state.json
+
+# ── IDE / Editor ──────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Claude Code ───────────────────────────────────────────────────────
+.claude/
+
+# ── OS Files ──────────────────────────────────────────────────────────
+Thumbs.db
+Desktop.ini
+.DS_Store
